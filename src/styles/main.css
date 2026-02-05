@@ -51,29 +51,43 @@ nav {
   color: blueviolet;
 }
 
-.navbar-items > .btn {
-  margin-left: 16px;
-  padding: 11px 22px;
-  font-size: 16px;
-  border-radius: 4px;
-}
-
-.navbar-items .btn-sign-in {
-  border: 2px solid #bcd0e5;
-  color: #173a56;
-}
-
-.navbar-items .btn-sign-up {
+.btn {
   border: none;
   background-color: var(--orange);
   color: var(--white);
 }
 
+.btn:hover {
+  background-color: #f8b146;
+}
+
+.btn:active {
+  background-color: #e78b01;
+}
+
 button {
   cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 button:active {
   position: relative;
   top: 2px;
+}
+
+.navbar-items > button {
+  margin-left: 16px;
+  padding: 11px 22px;
+  border-radius: 4px;
+}
+
+.btn-sign-in {
+  border: 2px solid #bcd0e5;
+  background-color: #fff;
+  color: #173a56;
+}
+
+.btn-sign-in:active {
+  background-color: #bcd0e5;
 }
