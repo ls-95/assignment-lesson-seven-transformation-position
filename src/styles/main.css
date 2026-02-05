@@ -2,6 +2,7 @@
   --orange: #ff9900;
   --white: #fff;
   --dark-grey-text: #2f281e;
+  --light-grey-text: #544837;
 }
 
 * {
@@ -116,11 +117,15 @@ h1 {
   margin-bottom: 30px;
 }
 
+p {
+  color: var(--light-grey-text);
+  line-height: 26px;
+}
+
 .header-introduction-text > p {
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 45px;
-  color: #544837;
 }
 
 .header-introduction-btn-container > button {
@@ -177,4 +182,31 @@ h2 {
   display: block;
   padding: 15px 33px;
   margin: 0 auto 90px auto;
+}
+
+/*Second section - design professionals styling*/
+
+.section-info-left {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-info-left-text-section {
+  max-width: 600px;
+}
+
+.section-info-left-text-section > h2 {
+  margin: 3px 0 22px 0;
+}
+
+.section-info-left-paragraph {
+  margin-bottom: 25px;
+}
+
+.section-info-left-text-section strong {
+  color: var(--dark-grey-text);
+  margin-bottom: 12px;
+  display: block;
 }
