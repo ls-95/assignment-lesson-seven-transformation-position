@@ -120,10 +120,12 @@ h1 {
 p {
   color: var(--light-grey-text);
   line-height: 26px;
+  font-weight: 500;
 }
 
 .header-introduction-text > p {
   font-size: 18px;
+  font-weight: 400;
   line-height: 28px;
   margin-bottom: 45px;
 }
@@ -193,11 +195,11 @@ h2 {
   align-items: center;
 }
 
-.section-info-left-text-section {
+.section-info-text-section {
   max-width: 600px;
 }
 
-.section-info-left-text-section > h2 {
+.section-info-text-section > h2 {
   margin: 3px 0 22px 0;
 }
 
@@ -205,10 +207,34 @@ h2 {
   margin-bottom: 25px;
 }
 
-.section-info-left-text-section strong {
+.section-info-text-section strong {
   color: var(--dark-grey-text);
   margin-bottom: 12px;
   display: block;
 }
 
 /*Second section - Product managers*/
+.section-info-right {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-info-right-paragraph {
+  margin-bottom: 30px;
+}
+
+.check-icon-section {
+  display: flex;
+  align-items: center;
+}
+
+.check-icon-section > p {
+  margin-left: 30px;
+}
+
+.check-icon-section img {
+  position: relative;
+  bottom: 15px;
+}
