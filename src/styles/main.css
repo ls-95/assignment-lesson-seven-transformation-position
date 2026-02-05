@@ -1,5 +1,79 @@
+:root {
+  --orange: #ff9900;
+  --white: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding-top: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.navbar-items {
+  display: flex;
+}
+
+.navbar-items > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding-right: 29px;
+}
+
+.navbar-items > ul li a {
+  display: block;
+  text-decoration: none;
+  color: #2f281e;
+  line-height: 28px;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.navbar-items > ul li a:visited {
+  color: blueviolet;
+}
+
+.navbar-items > .btn {
+  margin-left: 16px;
+  padding: 11px 22px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.navbar-items .btn-sign-in {
+  border: 2px solid #bcd0e5;
+  color: #173a56;
+}
+
+.navbar-items .btn-sign-up {
+  border: none;
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  position: relative;
+  top: 2px;
 }
