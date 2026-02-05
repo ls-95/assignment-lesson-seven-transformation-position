@@ -6,6 +6,7 @@ const signIn = document.getElementById("sign-in");
 const signUp = document.getElementById("sign-up");
 const getStarted = document.getElementById("get-started");
 const watchVideo = document.getElementById("watch-video");
+const signUpNow = document.getElementById("sign-up-now");
 
 function handleClick(e) {
   e.preventDefault();
@@ -20,3 +21,4 @@ signIn.addEventListener("click", handleClick);
 signUp.addEventListener("click", handleClick);
 getStarted.addEventListener("click", handleClick);
 watchVideo.addEventListener("click", handleClick);
+signUpNow.addEventListener("click", handleClick);

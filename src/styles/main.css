@@ -20,7 +20,7 @@ header {
   padding-top: 20px;
 }
 
-/*Code for navbar*/
+/*Navigation bar styling*/
 
 nav {
   display: flex;
@@ -96,12 +96,13 @@ button:active {
   background-color: #bcd0e5;
 }
 
-/*Code for hero section */
+/*Hero section styling */
 
 .header-introduction {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 110px;
 }
 
 .header-introduction-text {
@@ -137,4 +138,43 @@ h1 {
   position: relative;
   top: 4px;
   right: 8px;
+}
+
+/*First section - features styling*/
+
+h2 {
+  font-size: 36px;
+  color: var(--dark-grey-text);
+}
+
+.features-container > h2 {
+  text-align: center;
+  margin: 0 auto 54px auto;
+  max-width: 600px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.feature {
+  max-width: 240px;
+}
+
+.feature > img {
+  margin-bottom: 30px;
+}
+
+.feature > h3 {
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+
+.features-container > .btn-sign-up-now {
+  display: block;
+  padding: 15px 33px;
+  margin: 0 auto 90px auto;
 }
