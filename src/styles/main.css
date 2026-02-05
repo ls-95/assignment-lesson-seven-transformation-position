@@ -1,6 +1,7 @@
 :root {
   --orange: #ff9900;
   --white: #fff;
+  --dark-grey-text: #2f281e;
 }
 
 * {
@@ -19,10 +20,13 @@ header {
   padding-top: 20px;
 }
 
+/*Code for navbar*/
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 0 17px 0;
   margin-bottom: 30px;
 }
 
@@ -41,7 +45,7 @@ nav {
 .navbar-items > ul li a {
   display: block;
   text-decoration: none;
-  color: #2f281e;
+  color: var(--dark-grey-text);
   line-height: 28px;
   font-size: 14px;
   margin-right: 20px;
@@ -69,6 +73,7 @@ button {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
+  border-radius: 4px;
 }
 
 button:active {
@@ -79,15 +84,57 @@ button:active {
 .navbar-items > button {
   margin-left: 16px;
   padding: 11px 22px;
-  border-radius: 4px;
 }
 
 .btn-sign-in {
-  border: 2px solid #bcd0e5;
-  background-color: #fff;
+  border: 1px solid #bcd0e5;
+  background-color: var(--white);
   color: #173a56;
 }
 
 .btn-sign-in:active {
   background-color: #bcd0e5;
+}
+
+/*Code for hero section */
+
+.header-introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-introduction-text {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 54px;
+  color: var(--dark-grey-text);
+  margin-bottom: 30px;
+}
+
+.header-introduction-text > p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 45px;
+  color: #544837;
+}
+
+.header-introduction-btn-container > button {
+  padding: 15px 41px;
+}
+
+.btn-watch-video {
+  border: none;
+  background-color: var(--white);
+  color: var(--orange);
+  text-decoration: underline;
+}
+
+.btn-watch-video .play-icon {
+  position: relative;
+  top: 4px;
+  right: 8px;
 }
