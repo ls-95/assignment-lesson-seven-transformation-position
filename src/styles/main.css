@@ -3,6 +3,7 @@
   --white: #fff;
   --dark-grey-text: #2f281e;
   --light-grey-text: #544837;
+  --ligt-blue: #bcd0e5;
 }
 
 * {
@@ -88,13 +89,13 @@ button:active {
 }
 
 .btn-sign-in {
-  border: 1px solid #bcd0e5;
+  border: 1px solid var(--ligt-blue);
   background-color: var(--white);
   color: #173a56;
 }
 
 .btn-sign-in:active {
-  background-color: #bcd0e5;
+  background-color: var(--ligt-blue);
 }
 
 /*Hero section styling */
@@ -231,4 +232,58 @@ h2 {
 .check-icon-container img {
   position: relative;
   bottom: 15px;
+}
+
+.last-main-container {
+  margin-bottom: 146px;
+}
+
+/*Footer styling*/
+
+footer {
+  padding-top: 102px;
+  margin-bottom: 83px;
+  border-top: 1px solid var(--ligt-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-info {
+  padding-top: 65px;
+  align-self: flex-end;
+  line-height: 35px;
+  color: var(--light-grey-text);
+}
+
+.footer-info > p {
+  font-weight: 400;
+}
+
+.form-container {
+  width: 325px;
+}
+
+footer input {
+  display: block;
+}
+
+footer input[type="email"] {
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 21px;
+  border: 1px solid var(--ligt-blue);
+  border-radius: 4px;
+}
+
+footer input[type="submit"] {
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-btn:active {
+  position: relative;
+  top: 2px;
 }
