@@ -99,14 +99,14 @@ button:active {
 
 /*Hero section styling */
 
-.header-introduction {
+.hero-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 110px;
 }
 
-.header-introduction-text {
+.hero-section-text {
   max-width: 600px;
 }
 
@@ -123,14 +123,14 @@ p {
   font-weight: 500;
 }
 
-.header-introduction-text > p {
+.hero-section-text > p {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 45px;
 }
 
-.header-introduction-btn-container > button {
+.btn-container > button {
   padding: 15px 41px;
 }
 
@@ -152,6 +152,10 @@ p {
 h2 {
   font-size: 36px;
   color: var(--dark-grey-text);
+}
+
+.features-container {
+  margin-bottom: 210px;
 }
 
 .features-container > h2 {
@@ -188,53 +192,43 @@ h2 {
 
 /*First/Third section - design professionals/marketers styling*/
 
-.section-info-left {
-  margin-top: 120px;
+.text-image-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 100px;
 }
 
-.section-info-text-section {
+.text-container {
   max-width: 600px;
 }
 
-.section-info-text-section > h2 {
+.text-container > h2 {
   margin: 3px 0 22px 0;
 }
 
-.section-info-left-paragraph {
-  margin-bottom: 25px;
+.text-container-paragraph {
+  margin-bottom: 30px;
 }
 
-.section-info-text-section strong {
+.text-container strong {
   color: var(--dark-grey-text);
   margin-bottom: 12px;
   display: block;
 }
 
 /*Second section - Product managers*/
-.section-info-right {
-  margin-top: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.section-info-right-paragraph {
-  margin-bottom: 30px;
-}
-
-.check-icon-section {
+.check-icon-container {
   display: flex;
   align-items: center;
 }
 
-.check-icon-section > p {
+.check-icon-container > p {
   margin-left: 30px;
 }
 
-.check-icon-section img {
+.check-icon-container img {
   position: relative;
   bottom: 15px;
 }
